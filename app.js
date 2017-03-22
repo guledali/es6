@@ -1,18 +1,16 @@
-window.onload = function() {
-    /*skapa variabel var har ersatts med let och const*/
-    const pi = 3.142;
+window.onload = function () {
 
-    /*error assisgment to constant variable*/
-   /* pi = 10;*/
-    
-    /*error pi has already been declared*/
-/*    const  pi = 10;
-    console.log(pi);*/
-
-    function calcArea(r) {
-        /*You can redeclare it with const*/
-      /*  const pi = 10;*/
-    console.log("The area is: " + pi * r * r);
+/*function log(num=10) {
+    console.log(num);
 }
-    calcArea(5);
+/*You can overwrite the default parameter by inserting number in the parenteses below*/
+//log(20);*/
+
+
+/*You could specify everything in the function like name="ross"*/
+function logNinja(name, belt, age) {
+    console.log("My name is " + name + " and my belt color is " + belt + " and my age is " + age); 
+}
+
+logNinja("Shaun", "black", 28);
 }
